@@ -4,9 +4,10 @@
 }
 
 
-#h12{
+.h12{
     text-align: center;
     padding-top: 30px;
+    color: rgb(25, 0, 250);
 }
 
 .card{
@@ -42,31 +43,43 @@
     font-size: 12px;
 }
 
+.calc-head
+{
+
+}
+
 .calc-head #result{
-    width: 408px;
+    width: 410px;
     height: 100px;
     font-size: 20;
     font-weight: bolder;
     text-align:center;
     padding: 0 10px;
     letter-spacing: 2px;
+    border-color: rgb(255, 0, 242);
+    border-width: 10px;
+    margin-bottom: 5px;
 }
 .calcbtn{
     width: 100px;
     height: 100px;
     border-spacing: 0px;
-    font-size: 20px;
-    background: rgb(29, 210, 255);
+    font-size: 30px;
+    background: rgb(128, 56, 122);
     color: white;
     transition: 0.3s;
 }
 .calcbtn-style{
-    background-color: brown;
+    background-color: rgb(0, 68, 255);
 }
 .calcbtn-style2{
-    background-color: rgb(253, 215, 0);
+    background-color: rgb(252, 102, 202);
 }
 
 .calcbtn:hover{
     background-color: blue;
+}
+.second-page{
+    background-image:url(../images/cal.jpg);
+    background-position: center;
 }
