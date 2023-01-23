@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(asset.gif) ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: rgb(247, 0, 226);
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(255, 255, 255);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+}
+
+nav ul li a{
+    color: rgb(243, 128, 243);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-style: unset;
+}
+
+nav ul li a:hover{
+    color: rgb(247, 0, 255);
+    transition:0.2s;
+    
+}
+
+.btn{
+    background-color: #cc00ff9c;
+    color:white;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+ 
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    color: aliceblue;
+}
+
+
+.content{
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: rgb(174, 0, 255);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color:rgba(215, 69, 252, 0.829);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:rgb(255, 0, 200);
+    font-size: 25px;
+    margin-bottom:0 px;
+    letter-spacing: 1px;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 13px 15px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #aa00f9;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
+.newslatter form input:last-child:hover{
+    background-color: rgb(0, 80, 253) ;
+}
+#image-class{
+    width: 300px;
+    margin-left: 1300px;
+    margin-top: 0px;
+    padd
+}
